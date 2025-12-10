@@ -47,6 +47,15 @@ export interface Achievement {
   links?: Array<{ url: string; text: string }>
 }
 
+export interface Publication {
+  id: string
+  title: string
+  summary: string
+  date: string
+  publisher: string
+  links?: Array<{ url: string; text: string }>
+}
+
 export interface Certification {
   id: string
   title: string
@@ -68,6 +77,7 @@ export interface ContactInfo {
     linkedin?: string
     github?: string
     twitter?: string
+    whatsapp?: string
   }
 }
 

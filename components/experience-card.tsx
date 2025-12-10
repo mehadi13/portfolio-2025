@@ -21,15 +21,15 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
                 <div className="flex justify-between items-start">
                     <div>
                         <CardTitle className="transition-colors hover:text-primary">{experience.title}</CardTitle>
-                        <CardDescription>
+                        <CardDescription className="pt-2">
                             {experience.company} ({experience.location})
                         </CardDescription>
                     </div>
                     <div className="flex flex-col items-end">
                         <Badge className="transition-smooth hover:bg-primary/10">{experience.startDate} - {experience.endDate}</Badge>
-                        <span className="text-xs text-muted-foreground mt-1 mr-1">
+                        {/* <span className="text-xs text-muted-foreground mt-1 mr-1">
                             {experience.duration}
-                        </span>
+                        </span> */}
                     </div>
                 </div>
             </CardHeader>

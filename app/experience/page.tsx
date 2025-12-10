@@ -5,6 +5,7 @@ import { ArrowLeft, Briefcase } from "lucide-react"
 import { ExperienceCard } from "@/components/experience-card"
 import { experiences } from "@/lib/data"
 import { personalInfo } from "@/lib/data"
+import Menu from "@/components/menu"
 
 export default function ExperiencePage() {
   return (
@@ -15,33 +16,7 @@ export default function ExperiencePage() {
       </div>
 
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b border-border/20 bg-background/40 backdrop-blur-xl supports-[backdrop-filter]:bg-background/20">
-        <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className="text-xl font-bold hover:text-primary transition-colors">
-            {personalInfo.name}
-          </Link>
-          <div className="flex items-center gap-4">
-            <nav className="hidden md:flex items-center gap-1">
-              <Link href="/experience" className="px-3 py-2 text-sm font-medium text-primary bg-primary/10 rounded-md">
-                Experience
-              </Link>
-              <Link href="/projects" className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-smooth rounded-md hover:bg-muted/50">
-                Projects
-              </Link>
-              <Link href="/achievements" className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-smooth rounded-md hover:bg-muted/50">
-                Achievements
-              </Link>
-              <Link href="/certifications" className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-smooth rounded-md hover:bg-muted/50">
-                Certifications
-              </Link>
-              <Link href="/education" className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-smooth rounded-md hover:bg-muted/50">
-                Education
-              </Link>
-            </nav>
-            <ModeToggle />
-          </div>
-        </div>
-      </header>
+      <Menu />
 
       <main className="container relative z-10 py-12">
         <div className="mb-8">
