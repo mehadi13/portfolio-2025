@@ -212,49 +212,49 @@ export const projects: Project[] = [
     },
 ]
 
-// export const achievements: Achievement[] = [
-//     {
-//         id: "rpa-team-lead",
-//         title: "RPA Team Lead",
-//         organization: "Sybros Tech, Lahore",
-//         description:
-//             "Led the RPA team to deliver enterprise automations across SAP platforms, optimizing workflows and boosting efficiency. Mentored developers and earned a formal recommendation letter from the CEO recognizing leadership, technical excellence, professionalism, problem-solving, teamwork, and reliability.",
-//         links: [
-//             {
-//                 url: "https://www.linkedin.com/in/ateeb-shahid/",
-//                 text: "LinkedIn Profile",
-//             },
-//             {
-//                 url: "https://drive.google.com/file/d/1WNQjBqon14Xk6qgpfdOJw9HBeVa9nRSm/view?usp=sharing",
-//                 text: "View Recommendation Letter",
-//             },
-//         ],
-//     },
-//     {
-//         id: "top-rated-freelancer",
-//         title: "RPA Experience in the UAE",
-//         organization: "UAE",
-//         description:
-//             "Led AI-driven automation projects at across the UAE using RPA, n8n, Python, Node.js, machine learning models, Docker, and CRM integrations. Delivered enterprise-grade solutions that optimized workflows, reduced manual effort, and improved operational efficiency for clients in multiple sectors.",
-//     },
-//     {
-//         id: "rpa-workshop",
-//         title: "Conducted RPA Workshop at University of Management & Technology (UMT)",
-//         organization: "Representing SybrosTech as a TL",
-//         description:
-//             "UMT's Department of AI hosted an RPA workshop in collaboration with Sybros Tech. On May 3, 2024, an MoU was signed to offer student internships. Workshop led by CEO Maaz Tariq & TL Ateeb Shahid, Sybros Tech is a pioneering RPA company in Pakistan, aiming to drive impactful collaboration in automation.",
-//         links: [
-//             {
-//                 url: "https://www.facebook.com/SSTUMTofficial/posts/pfbid0BqiUZLoGXsBh3EtbrmE4YTKzH5f7M5DoBKeYtMBCmkqMva9qpiNZzTWVAPyFPsdBl?rdid=zdE5DEPz1xLNUwBv#",
-//                 text: "View Post 1",
-//             },
-//             {
-//                 url: "https://www.facebook.com/SSTUMTofficial/posts/pfbid02P9CE7mTX1qCsrVoS8SPE6m2jm5B3teDnxhniXdepmyBv3scfnrKQMDfC5BbY8gpJl",
-//                 text: "View Post 2",
-//             },
-//         ],
-//     },
-// ]
+export const achievements: Achievement[] = [
+    {
+        id: "rpa-team-lead",
+        title: "RPA Team Lead",
+        organization: "Sybros Tech, Lahore",
+        description:
+            "Led the RPA team to deliver enterprise automations across SAP platforms, optimizing workflows and boosting efficiency. Mentored developers and earned a formal recommendation letter from the CEO recognizing leadership, technical excellence, professionalism, problem-solving, teamwork, and reliability.",
+        links: [
+            {
+                url: "https://www.linkedin.com/in/ateeb-shahid/",
+                text: "LinkedIn Profile",
+            },
+            {
+                url: "https://drive.google.com/file/d/1WNQjBqon14Xk6qgpfdOJw9HBeVa9nRSm/view?usp=sharing",
+                text: "View Recommendation Letter",
+            },
+        ],
+    },
+    {
+        id: "top-rated-freelancer",
+        title: "RPA Experience in the UAE",
+        organization: "UAE",
+        description:
+            "Led AI-driven automation projects at across the UAE using RPA, n8n, Python, Node.js, machine learning models, Docker, and CRM integrations. Delivered enterprise-grade solutions that optimized workflows, reduced manual effort, and improved operational efficiency for clients in multiple sectors.",
+    },
+    {
+        id: "rpa-workshop",
+        title: "Conducted RPA Workshop at University of Management & Technology (UMT)",
+        organization: "Representing SybrosTech as a TL",
+        description:
+            "UMT's Department of AI hosted an RPA workshop in collaboration with Sybros Tech. On May 3, 2024, an MoU was signed to offer student internships. Workshop led by CEO Maaz Tariq & TL Ateeb Shahid, Sybros Tech is a pioneering RPA company in Pakistan, aiming to drive impactful collaboration in automation.",
+        links: [
+            {
+                url: "https://www.facebook.com/SSTUMTofficial/posts/pfbid0BqiUZLoGXsBh3EtbrmE4YTKzH5f7M5DoBKeYtMBCmkqMva9qpiNZzTWVAPyFPsdBl?rdid=zdE5DEPz1xLNUwBv#",
+                text: "View Post 1",
+            },
+            {
+                url: "https://www.facebook.com/SSTUMTofficial/posts/pfbid02P9CE7mTX1qCsrVoS8SPE6m2jm5B3teDnxhniXdepmyBv3scfnrKQMDfC5BbY8gpJl",
+                text: "View Post 2",
+            },
+        ],
+    },
+]
 
 
 export const publications: Publication[] = [
@@ -277,15 +277,15 @@ export const publications: Publication[] = [
     }
 ]
 
-// export const certifications: Certification[] = [
-//     {
-//         id: "tensorflow-ml",
-//         title: "Machine Learning with TensorFlow on Google cloud",
-//         issuer: "Udemy",
-//         date: "Nov 2024",
-//         url: "http://ude.my/UC-95616298-c95a-4c29-80e4-cff99ad8a6c3",
-//     },
-// ]
+export const certifications: Certification[] = [
+    {
+        id: "tensorflow-ml",
+        title: "Machine Learning with TensorFlow on Google cloud",
+        issuer: "Udemy",
+        date: "Nov 2024",
+        url: "http://ude.my/UC-95616298-c95a-4c29-80e4-cff99ad8a6c3",
+    },
+]
 
 export const technicalSkills: Skill[] = [
     {
