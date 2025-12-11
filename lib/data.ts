@@ -23,7 +23,7 @@ export const personalInfo: PersonalInfo = {
         "AI"
     ],
     resumeUrl: "https://drive.google.com/file/d/1zswWSqAgnUli6UkqF-yAcMMkHZAbqVz5/view?usp=sharing",
-    profileImage: process.env.NODE_ENV === 'production' ? '/portfolio/profile-ge.png' : '/profile-ge.png',
+    profileImage: process.env.NODE_ENV === 'production' ? '/portfolio-2025/profile-ge.png' : '/profile-ge.png',
 }
 
 export const aboutSections = [
