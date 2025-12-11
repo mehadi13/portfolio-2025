@@ -4,9 +4,9 @@
   "private": true,
   
   "scripts": {
-    "dev": "dotenv -e .env -- next dev",
+    "dev": "next dev",
     "build": "next build",
-    "start": "cross-env PORT=3001 next start -p $PORT", 
+    "start": "cross-env PORT=3001 next start", 
     "lint": "next lint",
     "deploy": "gh-pages -d out",
     "predeploy": "npm run build"
